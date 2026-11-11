@@ -31,8 +31,8 @@ type themselves. The file calls it the JAMS manuscript.
    earlier practice. Do not print an exact p-value unless the user's tables
    report one.
 
-3. **Leading zero. Journal style.** JM and JMR drop the leading zero for a
-   statistic that cannot exceed 1, e.g., ".47", "p < .05", and "r = –.31". His
+3. **Leading zero. Journal style.** JM and JMR drop the leading zero before a
+   decimal, e.g., ".47", "p < .05", and "r = –.31". His
    current manuscript does the same for coefficients, p-values, and confidence
    limits. The JAMS manuscript keeps the zero, e.g., "p < 0.05". Follow the
    target journal. Without a target, drop the zero.
@@ -67,7 +67,7 @@ type themselves. The file calls it the JAMS manuscript.
    say what the fit statistic shows.
 
 9. **Report a product of coefficients by showing the product.**
-   Template: "(b = [product] = [a] × [b])".
+   Template: "(β = [product] = [first coefficient] × [second coefficient])".
 
 10. **Translate the headline effect into a magnitude.** Give the translation
     in the abstract, in the introduction, and in the discussion, and keep the
@@ -78,8 +78,8 @@ type themselves. The file calls it the JAMS manuscript.
     "a one-unit increase in [X] is associated with a [n] percentage point
     increase in [Y]".
     "[effect A] is [n] times larger than [effect B]".
-    "a 1% change in [X] is associated with a [n]% change in [Y]", when the
-    variables are in logs.
+    When the variables are in logs, use "a 1% change in [X] is associated with
+    a [n]% change in [Y]".
     Example: "Specifically, a one-unit increase in customer satisfaction is
     associated with a .56 percentage point increase in abnormal returns, while
     a one-unit increase in customer dissatisfaction is associated with a 1.34
@@ -164,13 +164,13 @@ and JMR style, which is also what he types in his own drafts.
     four-factor model" and "Sobel's test".
 
 29. **Support every claim about prior work with a citation.** About three
-    parenthetical citations in four hold one source. A claim about a stream of
-    work gets a string of two to five.
+    parenthetical citations in four hold one source. A claim about a set of
+    related studies gets a string of two to five.
 
 30. **For a journal that uses APA style, switch the format and keep the
     habits.** His typeset JAMS and Elsevier articles have commas and
     ampersands, e.g., "(Angrist & Pischke, 2008)". The journal applies that
-    form in production. Rules 25 to 29 still apply.
+    form in production. Rules 23 and 25 to 29 still apply.
 
 ## Cross-references
 
@@ -213,7 +213,8 @@ and JMR style, which is also what he types in his own drafts.
 38. **Keep one word per concept.** See rules D1 and D2 in SKILL.md.
 
 39. **Name variables in equations with short capital labels and define them
-    in the "where" sentence.** CS, ADV, LEV, SI, and COMP. When a variable name
+    in the "where" sentence.** Examples are CS, ADV, LEV, SI, and COMP. When a
+    variable name
     appears in running text, capitalize it, e.g., "Higher values of
     Competition".
 
@@ -234,7 +235,9 @@ and JMR style, which is also what he types in his own drafts.
 
 ## Punctuation in manuscripts
 
-Rules E1 to E10 in SKILL.md are the short form of the rules below.
+Rules E2 to E7 in SKILL.md are the short form of the rules below. Rules 13,
+27, and 37 cover the symbols and the quotation marks of rules E8 and E9, and
+the last part of the playbook covers the headings of rule E10.
 
 43. **Em dash.** Use a closed em dash, with no spaces, to set off a definition
     or a list of up to about ten words inside a sentence. Use at most one em
@@ -409,7 +412,7 @@ the user confirms the claim.
   "showcase", "seamless", "intricate", "testament", "harness", "unlock", and
   "navigate".
 - Do not write "insignificant" for a statistical result, "since" for cause,
-  "Hence", "In sum,", "etc.", or "and so on".
+  "Hence", "In sum,", "In conclusion,", "etc.", or "and so on".
 - Do not use contractions, the first person singular, or exclamation marks in
   a manuscript.
 - Do not write "Clearly,", "Importantly,", "Interestingly,", or

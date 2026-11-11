@@ -21,7 +21,7 @@ or the target journal follows the earlier one. A rule that starts with
 ## Budget
 
 1. **Give each section its share of the body text.** In the two first-author
-   papers the introduction takes 10% to 13%, the theory and the hypotheses 28%
+   papers the introduction takes 10% to 12.5%, the theory and the hypotheses 28%
    to 35%, the method 23% to 28%, the results 13% to 17%, and the discussion
    14% to 18%. The theory block is the longest section or ties with the
    method.
@@ -55,12 +55,14 @@ or the target journal follows the earlier one. A rule that starts with
    abstract when the target journal allows it.
 
 7. **Follow sentence order A or sentence order B.** Use order B by default.
-   Order A (JM 2015): what the authors examine; the headline finding; two or
-   three sentences of mechanism; the main empirical result with the mediator;
-   the moderators; the boundary result, introduced with "Finally,".
-   Order B (JMR 2020): the gap in one "Although" sentence; what the authors
-   examine; the data and the main finding in one sentence; the asymmetry or
-   contrast; the moderators, introduced with "In addition,"; the magnitudes.
+   Order A (JM 2015) gives what the authors examine, the headline finding, two
+   or three sentences of mechanism, the main empirical result with the
+   mediator, the moderators, and the boundary result, which "Finally,"
+   introduces.
+   Order B (JMR 2020) gives the gap in one "Although" sentence, what the
+   authors examine, the data and the main finding in one sentence, the
+   asymmetry or contrast, the moderators after "In addition,", and the
+   magnitudes.
 
 8. **State the gap in the first sentence when you use order B.**
    Example: "Although previous studies have established a direct link between
@@ -150,7 +152,8 @@ sentences. It has no heading in a blind-review manuscript.
 
 18. **State the aim and the research questions.** End the lead-in sentence
     with a colon, set the questions off as a numbered list, and open the next
-    paragraph with "To answer these questions, we". Write new questions with
+    paragraph with "Empirically," when the lead-in starts with "To", and with
+    "To answer these questions, we" otherwise. Write new questions with
     associational wording, e.g., "Is [X] associated with [Y]?" and "Does [M]
     moderate the association between [X] and [Y]?" Keep the questions inside
     the sentence with (1) and (2), as in the JM 2015 example, only when the
@@ -171,9 +174,10 @@ sentences. It has no heading in a blind-review manuscript.
     relationship. First, most previous studies explore only the direct link
     between customer satisfaction and abnormal returns." (JMR 2020)
 
-20. **Name the theoretical lens in its own paragraph.** The JMR 2020 paper
-    starts the paragraph with "Theoretically,". The JM 2015 paper has no lens
-    paragraph in its introduction.
+20. **Name the theory that the paper builds on in its own paragraph.** The JMR
+    2020 paper
+    starts the paragraph with "Theoretically,". The JM 2015 paper has no
+    theory paragraph in its introduction.
     Example: "Theoretically, we build on the motivation, ability, and
     opportunity (MAO) framework (Heider 1958; Wang, Gupta, and Grewal 2017) to
     argue that short sellers (1) are motivated to exploit any informational
@@ -218,7 +222,8 @@ sentences. It has no heading in a blind-review manuscript.
     equivalent to an estimated loss of $26 million in net operating cash flows
     (Gruca and Rego 2005)." (JM 2015)
     The colon that joins the two clauses is the earlier practice. Write two
-    sentences in new text.
+    sentences in new text. The words "impact" and "results in" are also the
+    earlier practice (rule A5 in SKILL.md).
 
 24. **List the contributions with ordinals.** Announce the contributions in
     one sentence, then start each with "First,", "Second,", and "Finally,".
@@ -379,16 +384,18 @@ sentences. It has no heading in a blind-review manuscript.
     "Mediating Role of Short Interest in Customer Satisfaction–Abnormal Returns
     Link" (JMR 2020).
 
-45. **Build the argument as a chain with the construct as the subject.** In a
+45. **Build the argument as a sequence of linked steps with the construct as
+    the subject.** In a
     moderator subsection, do not open with "We argue that", and do not state
-    the prediction before the chain. The order is the definition, the first
+    the prediction before the steps. The order is the definition, the first
     condition with cited evidence, its consequence, the second condition, the
     agreement with prior evidence, a summary sentence that starts with "In
     summary,", and the lead-in. The first person appears only in the lead-in.
     Give each condition its own paragraph when it has two sentences or more.
     Join the steps inside a condition with "because" in the middle of the
-    sentence, and close the condition with "Thus,", "As such,", or
-    "Consequently," at the start of a sentence.
+    sentence, and close the condition with "Therefore,", "As such,", or
+    "Consequently," at the start of a sentence. The JMR 2020 paper also uses
+    "Thus," there (rule D8 in SKILL.md).
     Examples: "When competitive intensity is high, rivals can more easily
     satisfy customers of a focal firm because their offerings are relatively
     more similar and interchangeable" (JMR 2020). "As such, changes in customer
@@ -458,6 +465,7 @@ sentences. It has no heading in a blind-review manuscript.
     proposition. Use the device only when both directions are tested.
     Example: "H3: The impact of customer satisfaction on firm value is higher
     (lower) for firms with lower (higher) leverage." (JM 2015)
+    The word "impact" in the example is the earlier practice.
 
 52. **Call the predictions hypotheses by default.** Use the labels H1 and H2a.
     Use propositions when the user's draft has them or the user asks for them.
@@ -643,9 +651,9 @@ sentences. It has no heading in a blind-review manuscript.
     section.** The JM 2015 paper gives each group a subsection, reuses the
     wording of the theory heading, and adds the label. The JMR 2020 paper uses
     run-in headings such as "Test of hypotheses.".
-    Example: theory heading "Moderators of the Leverage–Customer Satisfaction
-    Link" and results heading "Moderation of the Customer Satisfaction–Firm
-    Value Link (H3)" (JM 2015).
+    Example: the theory heading "Moderators of the Leverage–Customer
+    Satisfaction Link" returns as the results heading "Moderation of the
+    Leverage–Customer Satisfaction Link (H2a–c)" (JM 2015).
 
 77. **Report each test by restating the hypothesis, showing the estimate, and
     stating the verdict.** Use that order when the paper has numbered
@@ -747,8 +755,8 @@ sentences. It has no heading in a blind-review manuscript.
     Contribution opening (JMR 2020): "This article's primary contribution is
     to disentangle the apparent lack of value relevance of customer
     satisfaction for abnormal returns." (JMR 2020)
-    Direct opening (current): go straight to the first theoretical
-    contribution with "We advance [theory] by demonstrating that [claim]."
+    Direct opening (current): start with the first theoretical contribution,
+    in the form "We advance [theory] by demonstrating that [claim]."
 
 90. **Divide the discussion into theoretical implications, managerial
     implications, and limitations with future research.** The headings in the
@@ -770,9 +778,12 @@ sentences. It has no heading in a blind-review manuscript.
 
 92. **Restate the headline magnitude in the discussion, in the sentence frame
     of the abstract and the introduction.**
-    Example: "The value reduction due to customer dissatisfaction is 2.39
-    times larger than the value enhancement due to an increase in customer
-    satisfaction." (JMR 2020)
+    Example: "Specifically, a one-unit increase in customer satisfaction is
+    associated with a .56 percentage point increase in abnormal returns, while
+    a one-unit increase in customer dissatisfaction is associated with a 1.34
+    percentage point decrease in abnormal returns." (JMR 2020)
+    The JMR 2020 discussion adds one ratio, "2.39 times larger", that the
+    abstract does not have.
 
 93. **Address managerial implications to named roles.** He names CMOs, CFOs,
     executives, marketers, regulators, shareholders, and investors. Announce

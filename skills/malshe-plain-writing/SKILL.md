@@ -2,8 +2,9 @@
 name: malshe-plain-writing
 description: >-
   Writes and edits prose in Ashwin Malshe's own style, learned from his
-  published marketing papers and current manuscript, with the plain-writing
-  rules as a second layer. Use when drafting or revising his journal
+  published marketing papers and current manuscript, and applies the
+  plain-writing rules where his style is silent. Use when drafting or revising
+  his journal
   manuscripts (abstract, introduction, theory, hypotheses, methods, results,
   discussion, web appendix), responses to reviewers, practitioner articles,
   reports, summaries, emails, READMEs, slides, commit messages, or PR
@@ -85,7 +86,8 @@ rule disagree, follow the rule.
    comes first. The style guide of the target journal comes second, and it
    decides citation format, heading format, the person of the abstract, the
    leading zero, and spelling. The rules of the skill come third. A word limit
-   from the user outranks the statistics of rules B2 and C1. To meet a limit,
+   from the user comes before the statistics of rules B2 and C1. To meet a
+   limit,
    drop the optional steps of the playbook first, and say which steps you
    dropped. Use American spelling unless the journal asks for another.
 
@@ -139,7 +141,7 @@ A1. **Write in the first person plural and the active voice.** Use "we" for
 what the authors argue, do, and find, and "our" for the study, the sample, and
 the results. He uses "we" 10 to 15 times per 1,000 words across a paper. The
 method and results sections have the most, at 16 to 25 per 1,000 words. An
-introduction has 5 to 10, and a hypothesis argument has almost none. Do not
+introduction has 5 to 15, and a hypothesis argument has almost none. Do not
 write "I". Write "the authors" only in an abstract for a journal that wants
 the third person. Refer to the work as "our study", "our research", or "this
 research". "This article" is in the published papers and may stay in his
@@ -223,7 +225,8 @@ the association of customer satisfaction and firm financial outcomes." (JMR
 
 A9. **Choose the tense by the kind of statement.** Use the present tense for
 a general claim, for what one study finds, for your own argument, and for your
-results. Use the present perfect for a stream of work, e.g., "Previous research
+results. Use the present perfect for a set of related studies, e.g., "Previous
+research
 has shown". Use the present tense for the model and the measures, and the past
 tense for a one-time step on the data. Use "could" and "should" for future
 research.
@@ -274,8 +277,9 @@ checks, or limitations.** Then mark each item with "First,", "Second,",
 "Third,", and "Finally,". A number is the default when the list has two to
 five items. He also writes "several" and "a few", most often when the items
 run over several paragraphs, so keep those words when you edit his draft. A
-list runs to "Fifth," in the published papers and to "Seventh," in the current
-manuscript. He uses the device in both published first-author papers.
+list runs to "Fifth," in the two first-author papers and to "Seventh," in the
+current manuscript and in his coauthored review article. He uses the device in
+both published first-author papers.
 Examples: "This is surprising for three reasons." (JM 2015) "We performed
 three robustness checks." (JM 2015) "Four critical aspects of our study shed
 further light on this relationship." (JMR 2020)
@@ -312,17 +316,20 @@ Template: "[Construct] covers [what is inside]. [Construct] does not cover
 
 B10. **Point across sections inside a sentence.** He writes "as we discussed
 previously", "which we describe in the following section", and "We elaborate
-on this counterintuitive result in the "Discussion" section". He does not
-write a transition paragraph in an empirical paper.
+on this counterintuitive result in the "Discussion" section". Do not write a
+transition paragraph in an empirical paper. The JM 2015 paper has one roadmap
+paragraph at the end of its introduction, and the playbook marks it as
+optional.
 
 ### C. Sentences
 
 C1. **Follow his length profile.** Across a paper, the mean is 21 to 23 words
 and the median is 20 to 21. About one sentence in eight has 10 words or fewer,
 and about one in 20 has more than 40 words. The mean differs by section.
-Introductions and theory sections have a mean of 23 to 27 words, because the
+Introductions and theory sections have a mean of 22 to 28 words, because the
 sentences carry citation strings. Results sections have a mean of 18 to 22
-words, because verdicts and pointers are short. Two to four sentences in 100
+words, because verdicts and pointers are short. Method sections and
+discussions have a mean of 21 to 24 words. Two to four sentences in 100
 run past 45 words, and most of them are argument sentences with a "because"
 clause or a citation string. His coauthored papers have longer sentences, with
 means of 23 to 27 words. Do not use them as the target.
@@ -343,8 +350,9 @@ C4. **Front the purpose, the reason, the concession, the condition, or the
 precedent when it frames the main clause.** The purpose form, "To [purpose],
 we", is the most common. The other forms are "Because [reason],", "Although
 [concession],", "When [condition],", "Following [source],", and "Consistent
-with [source],". The forms "Using [data]," and "By [action]," appear once or
-twice in a paper. Use each fronted form at most once in a paragraph, and do
+with [source],". The forms "Using [data],", "Estimating [model],", and "By
+[action]," appear once or twice in a paper. Use each fronted form at most once
+in a paragraph, and do
 not open two paragraphs in a row with the same form. When the research
 questions end with a "To" sentence, open the empirical preview with
 "Empirically,".
@@ -439,8 +447,8 @@ third form. A variable name for a model term may appear only in equations, in
 table labels, and in the name of an interaction, after you define it. When the
 user's notes use several labels for one outcome, use the label of the measure,
 say once which construct it measures, and tell the user which labels you
-merged. His published papers slip about one time in ten, e.g., "satisfaction"
-for "customer satisfaction". Do not copy the slips.
+merged. His published papers depart from the rule about one time in ten, e.g.,
+"satisfaction" for "customer satisfaction". Do not copy the departures.
 
 D2. **Name units and actors with his words.** Write "firm" and not "company"
 in a manuscript. Write "customers" or "consumers" as the construct requires,
@@ -478,9 +486,9 @@ theory. He also uses "moderates", "mediates", "mechanism", "channel",
 "through", "more pronounced", "stronger", and "weaker".
 
 D8. **Mark a conclusion with "Thus," or "Therefore,".** Use "Thus," for a
-verdict on a hypothesis and for the last sentence of a contribution. Use
-"Therefore," for a step in an argument and in the lead-in to a hypothesis. In
-an existing draft, keep the one that the draft already uses. The published
+verdict on a hypothesis and for the last sentence of a contribution. For a
+step in an argument and in the lead-in to a hypothesis, use "Therefore," in
+new text, and keep "Thus," when the draft already uses it. The published
 papers prefer "Thus,", and the current manuscript prefers "Therefore,". The
 alternates are "Accordingly,", "Consequently,", "As such,", "In summary,",
 "Overall,", and "Taken together,". Do not write "Hence", "In sum,", or "In
@@ -492,16 +500,20 @@ or "Nonetheless,".** Use "Moreover," at most twice in a paper. "Yet" opens a
 sentence that turns the argument, a few times in a paper.
 
 D10. **Give a reason with "because".** His first-author papers do not use
-"since" for cause. The current manuscript also uses "as" for a short reason.
+"since" for cause outside direct quotations. The current manuscript also uses
+"as" for a short reason.
 
 D11. **Hedge with may, might, can, should, likely, could, potential, and
 suggest.** Do not hedge with "perhaps", "arguably", "somewhat", or "seems".
 
 D12. **The vocabulary of the field is fine.** He writes extant, posit,
 antecedent, exacerbate, attenuate, and value relevance. Do not use the words
-that Part 2 rule 1 lists, and do not use pivotal, realm, foster, underscore,
+that Part 2 rule 1 lists, except as its note allows, and do not use pivotal,
+realm, foster, underscore,
 showcase, seamless, intricate, testament, harness, unlock, or navigate. None
-of those words is in his first-author papers. Write "use", "exploit", or
+of the words from "pivotal" to "navigate" is in his first-author papers, and
+"delve", "tapestry", and "landscape" are not in them either. Write "use",
+"exploit", or
 "capitalize on" and not "leverage" as a verb, and never use "leverage" as a
 verb in a paper in which leverage is a construct.
 
@@ -524,7 +536,8 @@ D16. **State a limit with a plain negative.** Write "does not", "cannot", and
 
 ### E. Punctuation and formatting in manuscripts
 
-The full rules, with examples, are in the punctuation part of
+The longer rules for dashes, colons, semicolons, and parentheses, with
+examples, are in the punctuation part of
 `references/reporting-and-phrases.md`. The heading rules are in the last part
 of `references/manuscript-playbook.md`. The target journal decides the points
 that the reference files mark as journal style.
@@ -572,15 +585,16 @@ so follow the target journal. Word every heading as a noun phrase.
 ### F. Evidence and numbers
 
 F1. **Support every claim about prior work with a citation.** Most claims
-carry one citation. A claim about a stream of work gets a string of two to
-five. When the citations are missing, write one placeholder that states the
+carry one citation. A claim about a set of related studies gets a string of
+two to five. When the citations are missing, write one placeholder that states
+the
 count and the topic, e.g., [citations: two to five studies on customer metrics
 and stock returns].
 
 F2. **Give exact numbers with their units.** State the sample as the number
 of observations, the number of firms, and the period. Mark a rounded number
-with "approximately", "more than", or "almost". Do not write "around" or
-"about" with a statistic.
+with "approximately", "more than", or "almost". In a manuscript, do not write
+"around" or "about" with a statistic.
 
 F3. **Keep a number and its comparison in one sentence.** A mean is followed
 by the benchmark, and an effect is followed by what it is compared with. When
@@ -620,13 +634,16 @@ G3. **Introduction.** Write seven paragraphs in the following order: the
 standing of the topic, what prior research shows, the gap, the counted reasons
 or the counted aspects of the study, the research questions, the empirical
 preview with sample facts and findings, and the counted contributions. The
-introduction takes a tenth to an eighth of the body text.
+introduction takes a tenth to an eighth of the body text. When the
+introduction follows the aspects of the study, each aspect has its own
+paragraph, and the paragraphs for the reasons and the research questions drop
+out.
 
 G4. **Theory.** Give each paragraph one claim, evidence from cited studies,
 and a concrete example, and mark the step to the paper's own argument with a
 first-person sentence.
 
-G5. **Hypotheses.** Build a chain of reasoning with hedged verbs and the
+G5. **Hypotheses.** Build a sequence of linked steps with hedged verbs and the
 construct as the subject, resolve the opposing argument, add a short lead-in,
 and state each hypothesis in one declarative sentence with associational
 wording.
@@ -683,7 +700,10 @@ against actual, before against after, or one group against another. Do not
 report a p-value, a coefficient, a test statistic, or a model name, and do not
 write "standard deviation". Convert a statistical unit into an everyday unit
 when the conversion is arithmetic, e.g., write "about 0.06 percentage points"
-for 6.2 basis points. When the comparison is missing, write [comparison].
+for 6.2 basis points. Describe a one-standard-deviation change in words, e.g.,
+"a typical unexpected increase in complaints", and write [size of a typical
+increase] when the user does not give its size. When the comparison is
+missing, write [comparison].
 Example: "From 1994 to 2017, the average partisan gap increased from 15 points
 to 36 points." (HBR, Partisanship)
 
@@ -703,6 +723,7 @@ Example: "A 2023 review of 245 academic papers found that firms that
 prioritize customer satisfaction perform better across a wide variety of
 metrics, including sales, profits, cash flows, stock price, and more." (HBR,
 Alignment)
+The example has "firms". Write "companies" in new text.
 
 H9. **Organize advice as a counted set of steps.** Give each step a subhead
 that starts with a verb. In a piece of under 300 words, give the steps as
@@ -787,7 +808,8 @@ before and after.
    After: Upload the document. The document is parsed and saved.
    In manuscripts: the rule holds and is stricter (rule D1). The one licensed
    exception is the label for earlier work (rule D15). His published papers
-   slip about one time in ten, and the slips are not models.
+   depart from the rule about one time in ten, and the departures are not
+   models.
 
 5. **It's ok to use contractions.** They match everyday speech, so use them
    freely.
@@ -840,7 +862,8 @@ before and after.
    Before: The groups the features were sorted into were the authors' own
    reading, the example posts were written by hand, and finer detail meant
    training extra small models and labeling again.
-   After: First, the authors sorted the features into groups themselves, based on
+   After: First, the authors sorted the features into groups themselves, based
+   on
    their own reading of the outputs. Second, they wrote the example posts by
    hand. Third, when they wanted finer detail, they trained another small
    model, and they labeled the posts again.
@@ -863,7 +886,8 @@ before and after.
 11. **Never write three or more clauses in one sentence, or three or more
     example sentences in a row.** In ordinary prose, a sentence may have one or
     two related clauses. Do not pack three or more clauses into one prose
-    sentence. If you need that many points, use a numbered First / Second / Third
+    sentence. If you need that many points, use a numbered First / Second /
+    Third
     sequence under rule 9, or short bullet points when you are writing a
     brief. If list points are examples and you want to inline them, introduce
     with "e.g.". Also do not give three or more example sentences back to back
@@ -926,7 +950,8 @@ before and after.
 
 ### Punctuation and formatting
 
-15. **No dashes or middle dots.** Do not use em dashes or en dashes, including in
+15. **No dashes or middle dots.** Do not use em dashes or en dashes, including
+    in
     number ranges. Join clauses with a period or "and", and write ranges with
     "to". Do not use the middle dot (·) as a separator; use a comma, "and", or
     separate lines instead.
@@ -934,8 +959,9 @@ before and after.
     After: The build is fast. It finishes in 10 to 20 seconds.
     In manuscripts: use an en dash for a relation between two constructs and
     for a range when the target journal does (rule E3). A closed em dash may
-    set off a definition or a list of up to about ten words, at most once per
-    1,000 words (rule E2). Do not use a dash for a pause or for emphasis.
+    set off a definition or a list of up to about ten words, with at most one
+    em dash, or one pair of em dashes, per 1,000 words (rule E2). Do not use a
+    dash for a pause or for emphasis.
 
 16. **Don't use colons to join clauses in ordinary prose.** Do not use a colon
     to glue two clauses or to set up a point in essay-like writing. A colon is
@@ -1069,8 +1095,9 @@ before and after.
 
 ## Part 3. Where the author's style overrides plain writing
 
-The table lists every plain-writing rule that changes outside the working
-register. A rule that is not in the table applies in all three registers.
+The table lists the plain-writing rules that change outside the working
+register. A rule that is not in the table applies in all three registers, with
+the additions that its note gives.
 
 | Rule | Working register | Manuscript register | Practitioner register |
 |---|---|---|---|
@@ -1119,14 +1146,17 @@ For every register:
    source that you read. Each gap is a placeholder in square brackets, and the
    placeholders are listed after the text.
 2. Each construct has one label, and the label is the same everywhere.
-3. No sentence uses a word that Part 2 rules 1 and 3 ban.
+3. No sentence uses a word that Part 2 rules 1 and 3 ban. In a manuscript, the
+   uses that the notes to those rules allow are fine, e.g., "robustness checks"
+   and "leverage" as a noun.
 4. No analogy, slogan, or stacked question is in the text.
 
 For a manuscript:
 
-5. No contraction, no "I", no "you", and no exclamation mark.
-6. In a text of 300 words or more, the mean sentence length is inside the
-   range that rule C1 gives for the section, at least one sentence has 10
+5. The text has no contraction, no "I", no "you", and no exclamation mark.
+6. In a text of 500 words or more, the mean sentence length is inside the
+   range that rule C1 gives for the section, with the tolerance that the start of
+   Part 1 gives. In any text of 300 words or more, at least one sentence has 10
    words or fewer, and no three short sentences stand in a row.
 7. Each paragraph opens with its claim, its action, or a definition, and ends
    on a sentence that does a job.

@@ -4,13 +4,13 @@
     "name": "ashgreat"
   },
   "metadata": {
-    "description": "The malshe-plain-writing skill: Ashwin Malshe's writing style with the plain-writing rules as a second layer."
+    "description": "The malshe-plain-writing skill: Ashwin Malshe's writing style and applies the plain-writing rules where his style is silent."
   },
   "plugins": [
     {
       "name": "malshe-plain-writing",
       "source": "./",
-      "description": "Writes and edits prose in Ashwin Malshe's academic and practitioner style, with the plain-writing rules as a second layer."
+      "description": "Writes and edits prose in Ashwin Malshe's academic and practitioner style, and applies the plain-writing rules where his style is silent."
     }
   ]
 }

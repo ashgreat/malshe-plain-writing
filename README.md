@@ -51,7 +51,7 @@ skills/malshe-plain-writing/
 .codex-plugin/ and .agents/plugins/     plugin and marketplace files for Codex
 ```
 
-`SKILL.md` has about 1,160 lines. The usual advice is to keep the file under
+`SKILL.md` has about 1,180 lines. The usual advice is to keep the file under
 500 lines. The file is longer on purpose, because it holds every rule of both
 sources. The detail that only a manuscript needs is in the reference files,
 and the agent reads those files when it drafts a manuscript section.
@@ -334,8 +334,9 @@ enabled = false
   a fresh writer produced with only the skill. The rules were corrected from
   their reports.
 - The 181 examples in the skill that carry a source tag are verbatim quotes
-  from the published papers and from one accepted manuscript, and a script
-  checks them against the source text. The unpublished manuscript informed
+  from the published papers and from the two Harvard Business Review articles,
+  and a script checks them against the source text. The unpublished manuscript
+  informed
   the rules. The skill takes short templates from it and does not quote its
   arguments or its findings.
 - The install steps for Claude Code come from its current documentation. The
