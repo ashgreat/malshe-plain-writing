@@ -1,0 +1,11 @@
+{
+  "name": "malshe-plain-writing",
+  "owner": { "name": "ashgreat" },
+  "plugins": [
+    {
+      "name": "malshe-plain-writing",
+      "source": "./",
+      "description": "Writes and edits prose in Ashwin Malshe's academic and practitioner style, with the plain-writing rules as a second layer."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "malshe-plain-writing",
+  "plugins": [
+    {
+      "name": "malshe-plain-writing",
+      "source": {
+        "source": "local",
+        "path": "./"
+      }
+    }
+  ]
+}

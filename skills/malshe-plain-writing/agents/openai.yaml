@@ -1,0 +1,6 @@
+interface:
+  display_name: "Malshe plain writing"
+  short_description: "Write and edit prose in Ashwin Malshe's style, with plain-writing rules as a second layer"
+  default_prompt: "Use $malshe-plain-writing to revise the following text."
+policy:
+  allow_implicit_invocation: true
