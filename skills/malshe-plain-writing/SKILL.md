@@ -862,8 +862,7 @@ before and after.
    Before: The groups the features were sorted into were the authors' own
    reading, the example posts were written by hand, and finer detail meant
    training extra small models and labeling again.
-   After: First, the authors sorted the features into groups themselves, based
-   on
+   After: First, the authors sorted the features into groups themselves, based on
    their own reading of the outputs. Second, they wrote the example posts by
    hand. Third, when they wanted finer detail, they trained another small
    model, and they labeled the posts again.
@@ -886,8 +885,7 @@ before and after.
 11. **Never write three or more clauses in one sentence, or three or more
     example sentences in a row.** In ordinary prose, a sentence may have one or
     two related clauses. Do not pack three or more clauses into one prose
-    sentence. If you need that many points, use a numbered First / Second /
-    Third
+    sentence. If you need that many points, use a numbered First / Second / Third
     sequence under rule 9, or short bullet points when you are writing a
     brief. If list points are examples and you want to inline them, introduce
     with "e.g.". Also do not give three or more example sentences back to back
@@ -950,8 +948,7 @@ before and after.
 
 ### Punctuation and formatting
 
-15. **No dashes or middle dots.** Do not use em dashes or en dashes, including
-    in
+15. **No dashes or middle dots.** Do not use em dashes or en dashes, including in
     number ranges. Join clauses with a period or "and", and write ranges with
     "to". Do not use the middle dot (·) as a separator; use a comma, "and", or
     separate lines instead.

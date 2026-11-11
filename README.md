@@ -51,7 +51,7 @@ skills/malshe-plain-writing/
 .codex-plugin/ and .agents/plugins/     plugin and marketplace files for Codex
 ```
 
-`SKILL.md` has about 1,180 lines. The usual advice is to keep the file under
+`SKILL.md` has about 1,190 lines. The usual advice is to keep the file under
 500 lines. The file is longer on purpose, because it holds every rule of both
 sources. The detail that only a manuscript needs is in the reference files,
 and the agent reads those files when it drafts a manuscript section.
