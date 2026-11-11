@@ -1,0 +1,9 @@
+{
+  "name": "malshe-plain-writing",
+  "version": "1.0.0",
+  "description": "Writes and edits prose in Ashwin Malshe's academic and practitioner style, and applies the plain-writing rules where his style is silent.",
+  "author": { "name": "ashgreat" },
+  "repository": "https://github.com/ashgreat/malshe-plain-writing",
+  "license": "MIT",
+  "keywords": ["writing", "academic-writing", "marketing", "style", "plain-language"]
+}
