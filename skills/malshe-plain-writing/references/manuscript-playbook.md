@@ -123,11 +123,12 @@ the paper. It has no heading in a blind-review manuscript.
     and Wurgler 2002)." (JM 2015)
 
 16. **State the aim and the research questions.** Number the questions.
-    Example: "To further our understanding of the dynamics between leverage,
-    customer satisfaction, and firm value, we aim to answer two related
-    questions: (1) Does leverage have a negative impact on customer
-    satisfaction? and (2) Is the impact of customer satisfaction on firm value
-    moderated by the firm's leverage?" (JM 2015)
+    Example: "we aim to answer two related questions: (1) Does leverage have a
+    negative impact on customer satisfaction? and (2) Is the impact of
+    customer satisfaction on firm value moderated by the firm's leverage?" (JM
+    2015)
+    The sentence opens with the purpose: "To further our understanding of the
+    dynamics between leverage, customer satisfaction, and firm value,".
     Current practice sets the two questions off as a numbered list and opens
     the next paragraph with "To answer these questions, we".
 

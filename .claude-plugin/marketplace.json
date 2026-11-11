@@ -1,6 +1,11 @@
 {
   "name": "malshe-plain-writing",
-  "owner": { "name": "ashgreat" },
+  "owner": {
+    "name": "ashgreat"
+  },
+  "metadata": {
+    "description": "The malshe-plain-writing skill: Ashwin Malshe's writing style with the plain-writing rules as a second layer."
+  },
   "plugins": [
     {
       "name": "malshe-plain-writing",
