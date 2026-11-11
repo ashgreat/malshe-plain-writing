@@ -4,28 +4,29 @@ A writing skill for Claude Code and Codex. It makes the agent write and edit
 prose the way Ashwin Malshe writes, and it applies the plain-writing rules
 wherever his own style is silent.
 
-The skill has two sources.
-
-1. His own writing. The rules in Part 1 of `SKILL.md` were learned from two
-   first-author papers (Journal of Marketing 2015 and Journal of Marketing
-   Research 2020), a current working manuscript, five coauthored journal
-   articles, and two Harvard Business Review articles.
-2. The plain-writing skill by Shreya Shankar. Part 2 of `SKILL.md` repeats all
-   25 of its rules and says how each one applies to his manuscripts.
+The rules in Part 1 of `SKILL.md` were learned from his own writing: two
+first-author papers (Journal of Marketing 2015 and Journal of Marketing
+Research 2020), a current working manuscript, five coauthored journal
+articles, and two Harvard Business Review articles. Part 2 of `SKILL.md`
+repeats all 25 rules of the plain-writing skill by Shreya Shankar and says how
+each one applies to his manuscripts.
 
 His style is the primary source, and plain writing is the secondary source.
 
 ## What the skill covers
 
-The skill separates three kinds of text.
+The skill treats manuscripts, practitioner writing, and working text
+differently.
 
-- Manuscripts: journal articles, working papers, web appendices, and responses
-  to reviewers. His own style governs.
-- Practitioner writing: articles for managers and executive summaries. The
-  structure and the evidence follow his Harvard Business Review articles, and
-  the surface follows the plain-writing rules.
-- Working text: chat replies, emails, reports, READMEs, slides, commit
-  messages, and PR descriptions. The 25 plain-writing rules govern in full.
+- Manuscripts: journal articles, working papers, web appendices, conference
+  abstracts, grant text, and responses to reviewers. His own style governs.
+- Practitioner writing: articles for managers, executive summaries, and posts
+  about research for a business audience. The structure and the evidence
+  follow his Harvard Business Review articles, and the wording and the
+  formatting follow the plain-writing rules.
+- Working text: chat replies, emails, reports, READMEs, slides, documentation,
+  commit messages, and PR descriptions. The 25 plain-writing rules govern in
+  full.
 
 The skill also keeps the `deslopify` command of the plain-writing skill.
 
@@ -34,11 +35,14 @@ The skill also keeps the `deslopify` command of the plain-writing skill.
 ```
 skills/malshe-plain-writing/
   SKILL.md                              the rules
-  references/manuscript-playbook.md     moves and sentence patterns for each
-                                        section of a paper
+  references/manuscript-playbook.md     steps and sentence patterns for each
+                                        section of an empirical paper
   references/reporting-and-phrases.md   formats for statistics, numbers,
-                                        citations, and punctuation, and a
-                                        phrase bank
+                                        citations, and punctuation, and a list
+                                        of recurring phrases
+  references/other-genres.md            review articles, methodological
+                                        commentaries, and responses to
+                                        reviewers
   references/plain-writing-original.md  the plain-writing skill as published
   agents/openai.yaml                    display name and default prompt for
                                         Codex
@@ -47,7 +51,7 @@ skills/malshe-plain-writing/
 .codex-plugin/ and .agents/plugins/     plugin and marketplace files for Codex
 ```
 
-`SKILL.md` has about 940 lines. The usual advice is to keep the file under
+`SKILL.md` has about 1,160 lines. The usual advice is to keep the file under
 500 lines. The file is longer on purpose, because it holds every rule of both
 sources. The detail that only a manuscript needs is in the reference files,
 and the agent reads those files when it drafts a manuscript section.
@@ -112,7 +116,7 @@ Code session, run:
 /plugin install malshe-plain-writing@malshe-plain-writing
 ```
 
-The same steps from a terminal:
+Run the same steps from a terminal:
 
 ```bash
 claude plugin marketplace add ashgreat/malshe-plain-writing
@@ -125,7 +129,7 @@ claude plugin install malshe-plain-writing@malshe-plain-writing
 A skill from a plugin has a longer name. Call it with
 `/malshe-plain-writing:malshe-plain-writing`.
 
-To update the plugin:
+Update the plugin with the commands below.
 
 ```bash
 claude plugin marketplace update malshe-plain-writing
@@ -135,7 +139,7 @@ claude plugin marketplace update malshe-plain-writing
 claude plugin update malshe-plain-writing@malshe-plain-writing
 ```
 
-To remove it:
+Remove the plugin with the commands below.
 
 ```bash
 claude plugin uninstall malshe-plain-writing@malshe-plain-writing
@@ -190,8 +194,8 @@ project's `CLAUDE.md`, or to `~/.claude/CLAUDE.md` for all projects:
 Use the malshe-plain-writing skill for all prose that you write or edit.
 ```
 
-Claude reads `CLAUDE.md` as context. The line makes the skill the default, and
-it is not a hard setting.
+Claude reads `CLAUDE.md` as context. The line asks Claude to use the skill by
+default, and Claude may still decide not to use it.
 
 ## Install in Codex
 
@@ -262,13 +266,13 @@ codex plugin add malshe-plain-writing@malshe-plain-writing
 A skill from a plugin has a longer name. Mention it as
 `$malshe-plain-writing:malshe-plain-writing`.
 
-To update the plugin:
+Update the plugin with the commands below.
 
 ```bash
 codex plugin marketplace upgrade malshe-plain-writing
 ```
 
-To remove it:
+Remove the plugin with the commands below.
 
 ```bash
 codex plugin remove malshe-plain-writing@malshe-plain-writing
@@ -322,29 +326,39 @@ enabled = false
 
 - Each document was converted to text. A script computed the sentence and
   paragraph statistics and counted words, phrases, and punctuation marks.
-- Each of the three main documents and one coauthored paper was read for its
-  structure and argument moves, and every quoted example was checked against
-  the source text by script.
-- The 145 examples in the skill that carry a source tag are verbatim quotes
-  from the published papers. The unpublished manuscript informed the rules,
-  and the skill does not quote it.
+- The two first-author papers, the current manuscript, and one coauthored
+  paper were each read for structure and for the steps of the argument.
+- Independent checkers then tested the draft rules. One recomputed every
+  number and tested every "do not" rule against the two first-author papers.
+  One tested the rules on four coauthored papers. One judged four pieces that
+  a fresh writer produced with only the skill. The rules were corrected from
+  their reports.
+- The 181 examples in the skill that carry a source tag are verbatim quotes
+  from the published papers and from one accepted manuscript, and a script
+  checks them against the source text. The unpublished manuscript informed
+  the rules. The skill takes short templates from it and does not quote its
+  arguments or its findings.
 - The install steps for Claude Code come from its current documentation. The
   install steps for Codex come from the Codex source code. Both plugin
-  installs were run with the real command line tools.
+  installs were run with the Claude Code and Codex command line tools.
 
 The rules have limits.
 
-- Journal copyeditors shaped some mechanics in the published papers, such as
-  the leading zero and the citation format. The reference files mark those
-  points, and the target journal decides them.
+- Every rule is an instruction for new text. His published papers do not
+  follow every rule, and the skill says so where the difference is large.
+- Journal copyeditors set some formats in the published papers, such as the
+  leading zero, the en dash, and the citation format. The reference files mark
+  those points as journal style, and the target journal decides them.
 - Coauthors wrote part of every paper. The skill gives most weight to the two
   first-author papers and the current manuscript.
 - His practice has changed since 2015. Where the papers differ, the skill
   follows the current practice and names the earlier one.
+- The parts on review articles and commentaries each rest on one coauthored
+  article.
 
 ## License and credits
 
-MIT License. See `LICENSE`.
+The skill is released under the MIT License. See `LICENSE`.
 
 The plain-writing rules in Part 2 of `SKILL.md` are by Shreya Shankar and are
 used under the MIT License. The style rules in Part 1 and in the reference
