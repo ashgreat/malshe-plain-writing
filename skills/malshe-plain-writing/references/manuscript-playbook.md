@@ -91,8 +91,8 @@ or the target journal follows the earlier one. A rule that starts with
 
 ## Introduction
 
-The introduction runs seven paragraphs and takes a tenth to an eighth of the
-body text, or 1,000 to 1,200 words. Its paragraphs have five to seven
+The introduction runs five to seven paragraphs and takes a tenth to an eighth
+of the body text, or 1,000 to 1,200 words. Its paragraphs have three to eight
 sentences. It has no heading in a blind-review manuscript.
 
 13. **Open with a general, citable statement about the standing of the
@@ -110,13 +110,20 @@ sentences. It has no heading in a blind-review manuscript.
     ([citation])."
 
 14. **Define the focal construct in the first paragraph, inside the sentence
-    that introduces it.**
+    that introduces it.** Do not write a paragraph of definitions. The first
+    paragraph has at most two definitions, and each one is an appositive or a
+    gloss inside a sentence that also makes a claim. Do not write a sentence
+    whose only content is a definition placeholder.
     Example: "The relative proportions of debt and equity constitute a firm's
     capital structure, typified by its financial leverage—the ratio of debt to
     firm value." (JM 2015)
 
 15. **Summarize what prior research has established before you state the
-    gap.** Use one or two sentences with citation strings. When the evidence is
+    gap.** Use one to five sentences with citation strings, in the first
+    paragraph, after the opening sentence and the definition. Each sentence
+    reports a finding that the user gives. When the user gives one finding,
+    write one sentence, and do not add sentences of your own about what the
+    studies examine. When the evidence is
     mixed, describe both sets of findings with parallel sentences.
     Example: "Multiple studies (Aksoy et al. 2008; Fornell et al. 2006;
     Fornell, Morgeson, and Hult 2016; Luo, Homburg, and Wieseke 2010; Raithel
@@ -125,7 +132,10 @@ sentences. It has no heading in a blind-review manuscript.
     The next sentence starts with "In contrast, other studies" and ends with
     "reporting a null association."
 
-16. **State the gap in one sentence.** The JM 2015 paper has a short sentence
+16. **State the gap in one sentence, and do not give the gap a paragraph
+    of its own.** The gap sentence closes the first paragraph, or it opens the
+    second paragraph and the count sentence of rule 17 follows it at once. The
+    JM 2015 paper has a short sentence
     that starts with "Yet". When the evidence is mixed, the JMR 2020 paper
     closes the first paragraph with one sentence that says what the review
     shows and that more research is needed. The current manuscript describes
@@ -142,7 +152,8 @@ sentences. It has no heading in a blind-review manuscript.
     the count with "First,", "Second,", and "Third,". Give each reason a fact
     with a citation, and a number when one exists. Rule 17 or rule 19 is
     required in every introduction. When the user gives no reasons, write the
-    count sentence and the ordinals with placeholders.
+    count sentence and the ordinals with placeholders. Write as many ordinals
+    as the count, and write "three" when you write three ordinals.
     Example: "This is surprising for three reasons. First, debt, and not
     equity, is the preferred method of external financing for U.S. firms, with
     debt accounting for approximately 80% of all new external financing (Baker
@@ -174,10 +185,15 @@ sentences. It has no heading in a blind-review manuscript.
     relationship. First, most previous studies explore only the direct link
     between customer satisfaction and abnormal returns." (JMR 2020)
 
-20. **Name the theory that the paper builds on in its own paragraph.** The JMR
-    2020 paper
-    starts the paragraph with "Theoretically,". The JM 2015 paper has no
-    theory paragraph in its introduction.
+20. **Name the theory that the paper builds on in the paragraph that
+    states the core argument.** The paragraph follows the reasons or the
+    aspects and comes before the empirical preview. The JMR 2020 paper starts
+    the paragraph with "Theoretically," and states the core argument of rule
+    21 in its third sentence. The JM 2015 paper has no theory paragraph in its
+    introduction. When the introduction has research questions, the paragraph
+    ends with the lead-in to the questions. When the user names no theory,
+    write "This argument builds on [theory] ([citation])." and add no other
+    sentence about the theory.
     Example: "Theoretically, we build on the motivation, ability, and
     opportunity (MAO) framework (Heider 1958; Wang, Gupta, and Grewal 2017) to
     argue that short sellers (1) are motivated to exploit any informational
@@ -227,11 +243,17 @@ sentences. It has no heading in a blind-review manuscript.
 
 24. **List the contributions with ordinals.** Announce the contributions in
     one sentence, then start each with "First,", "Second,", and "Finally,".
-    Give each contribution two or three sentences. The first says what
-    previous research did, with a citation. The second says what the paper
-    shows, in the form "we contribute to the [name] literature by showing that
-    [claim]". The last clause or sentence says what the result explains or
+    Give each contribution one to three sentences, and keep the paragraph at
+    eight sentences or fewer. A contribution says what previous research did,
+    with a citation, and what the paper shows. For at least one contribution,
+    join the two parts in one sentence with "although" or "whereas", and do
+    not use one sentence frame for all contributions. Use the form "we
+    contribute to the [name] literature by showing that [claim]" for one
+    contribution. End at least one contribution on what the result explains or
     which call for research it answers, with "which can explain" or "Thus,".
+    The thing that the result explains is a finding of prior research. When
+    the user does not give it, write "which can explain [variation or finding
+    in prior research] ([citation])", and do not write a claim of your own.
     When the user gives no prior work for a contribution, write [what previous
     research did] ([citation]).
     Examples: "We contribute to the marketing literature in several ways.
@@ -388,9 +410,14 @@ sentences. It has no heading in a blind-review manuscript.
     the subject.** In a
     moderator subsection, do not open with "We argue that", and do not state
     the prediction before the steps. The order is the definition, the first
-    condition with cited evidence, its consequence, the second condition, the
-    agreement with prior evidence, a summary sentence that starts with "In
-    summary,", and the lead-in. The first person appears only in the lead-in.
+    condition with cited evidence, its consequence, the second condition,
+    which opens with "In contrast, when", the agreement with prior evidence,
+    the opposing argument and its resolution when rule 47 applies, a summary
+    sentence that starts with "In summary,", and the lead-in. The agreement,
+    the summary, and the lead-in share the last paragraph. When the user gives
+    no evidence for a condition, write a placeholder sentence for the evidence
+    after the condition (step 5 in SKILL.md). The first person appears only in
+    the lead-in.
     Give each condition its own paragraph when it has two sentences or more.
     Join the steps inside a condition with "because" in the middle of the
     sentence, and close the condition with "Therefore,", "As such,", or
@@ -416,7 +443,11 @@ sentences. It has no heading in a blind-review manuscript.
     satisfaction are likely to be lower." (JM 2015)
 
 47. **Acknowledge the opposing argument and resolve it before the
-    hypothesis.** Start the turn with "However," or "Yet". When research is
+    hypothesis.** The step applies when the user names an opposing argument or
+    when theory supports both signs. The JMR 2020 subsection on competitive
+    intensity has none. When the user names none, leave the step out, and list
+    it among the steps that you left out. Start the turn with "However," or
+    "Yet". When research is
     divided, the JM 2018 paper argues both sides with "On the one hand" and
     "On the other hand" and then commits to one direction.
     Example: "However, Anderson, Fornell, and Rust (1997) propose that both
@@ -660,6 +691,7 @@ sentences. It has no heading in a blind-review manuscript.
     hypotheses. When a paragraph or a subsection tests two or more hypotheses,
     state one combined verdict in its last sentence. A separate verdict
     sentence follows a single test only when the test has its own paragraph.
+    Do not use one verdict sentence twice in a section.
     Examples of restating: "H2b posits that the link between leverage and
     customer satisfaction will be more negative for firms operating in
     competitive industries." (JM 2015) "H4a and H4b hypothesize that short
@@ -682,18 +714,27 @@ sentences. It has no heading in a blind-review manuscript.
 79. **Vary the verb that restates a hypothesis.** He uses "posits",
     "proposes", "hypothesizes", "pertain to", and "according to".
 
-80. **Add one clause of interpretation after the estimate.** The clause says
-    what the estimate means for the actors or the mechanism, and it is hedged
-    with "may" or "suggests". Do not restate the hypothesis in the clause.
+80. **Add a clause of interpretation after the estimate of a supported
+    test.** Use the clause for the headline test and for at most one other
+    test in the section. The JMR 2020 paper has no such clause in its tests of
+    hypotheses, and three clauses in a row read as a formula. The clause says
+    what the estimate means for the actors or the mechanism, and it has one
+    hedge, "may" or "suggests". Do not restate the hypothesis in the clause.
     Start it with "which indicates that", "indicating that", or "suggesting
-    that".
+    that", and do not use one opener twice in a section. Do not add the clause
+    to a nonsignificant estimate.
     Example: "which indicates that the leverage-induced cash flow pressure may
     force service firms to pursue productivity gains at the cost of lower
     customer satisfaction" (JM 2015).
 
 81. **Report an unsupported hypothesis plainly.** Say what the data show,
     state the verdict in one sentence, and point to where the paper discusses
-    it. Do not write that a hypothesis is rejected.
+    the result. When the test is the last of a group, the pointer comes first
+    and the combined verdict of rule 77 is the last sentence, as in the JM
+    2015 paper. When the estimate has the predicted sign and is
+    nonsignificant, do not open with "Contrary to our expectation,". Write
+    "However, the interaction of [X] and [M] is statistically nonsignificant".
+    Do not write that a hypothesis is rejected.
     Example: "We elaborate on this counterintuitive result in the "Discussion"
     section and provide guidance for further research." (JM 2015)
     Templates: "Thus, we do not find support for H[n]." "Our results do not

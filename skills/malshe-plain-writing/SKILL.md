@@ -14,7 +14,7 @@ description: >-
   apply to code, only to the words around it.
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.0.0"
 ---
 
 # Malshe plain writing
@@ -98,7 +98,18 @@ rule disagree, follow the rule.
    e.g., [citation], [number of firms], [definition of advertising intensity],
    and [opposing argument and its resolution]. You may write reasoning that
    links the user's facts, such as a step in a mechanism, a contrast between
-   two conditions, or advice that follows from a finding. Hedge the reasoning
+   two conditions, or advice that follows from a finding. Do not write a
+   sentence of your own about what prior research examines, finds, or leaves
+   open. When the user gives a hypothesis and no argument, write at most one
+   hedged sentence of your own for each condition and one for its consequence,
+   and write the other steps of the playbook as placeholder sentences. Put the
+   evidence for a step of your own in a separate placeholder sentence, e.g.,
+   "[Evidence from prior research for this condition] ([citation])." A
+   definition that only restates the user's description of the data is your
+   own reasoning. Write a placeholder when the definition needs a fact that
+   the user did not give. When the user says to add no facts, write
+   placeholders in place of your own reasoning about the literature and the
+   gap. Hedge the reasoning
    under rule A3, and do not attach a citation placeholder to it unless the
    user says that a source exists. When the playbook requires a step and you
    lack the content, write the step as a template with placeholders, and do
@@ -121,7 +132,12 @@ rule disagree, follow the rule.
 7. **Match the format of the file you write.** In a Word file, use the
    heading styles, the italics, and the curly quotes of the document. In
    Markdown or chat, use "#" headings in the case that rule E10 or Part 2 rule
-   18 gives, straight quotes, and no italics unless the user asks. Set a
+   18 gives, straight quotes, and no italics unless the user asks. A run-in
+   heading is the one exception. Write it in italics with asterisks, e.g.,
+   "*Sales growth.* The text continues on the same line.", because a run-in
+   heading without italics reads as a fragment. When the user names no target
+   journal for a manuscript, use the JM and JMR formats of rules E3 and E10
+   and of the reporting file, and say so in one line. Set a
    formal hypothesis on its own line. When you write one section or one
    paragraph, assume that the rest of the paper exists. Define a term again
    only when the user says that the text stands alone.
@@ -132,7 +148,9 @@ rule disagree, follow the rule.
 
 Examples are quoted from his published papers and carry a source tag. The
 rates describe a whole paper. Use a rate as a check only on a text of 500
-words or more, and accept a text that is within one quarter of the rate. Do
+words or more, and accept a text that is within one quarter of the rate. The
+mean sentence length is the exception. Accept a mean that is inside the range
+of rule C1 or within one word of the range. Do
 not add or cut words in a short text to meet a rate.
 
 ### A. Voice and stance
@@ -188,7 +206,12 @@ is weaker for". Sentences that state the theory may use causal words: the core
 argument, the mechanism in the hypothesis development, and the implications in
 the discussion. There the verbs "affects", "reduces", and "leads to" are fine.
 The noun "effect" stays in fixed terms such as "indirect effect", "moderating
-effect", and "fixed effects". Treat every estimate as associational unless the
+effect", and "fixed effects". A mediation estimate does not identify a
+channel. Write "mediate the association" for the estimate, and hedge the
+reading, e.g., "which suggests that credit analysts may be a channel between
+complaint volume and the loan spread". When the user's notes say that the
+study identifies a channel, write the hedged form and tell the user. Treat
+every estimate as associational unless the
 user says that the data come from an experiment or a natural experiment.
 Describe identification as reducing a concern, with "to address", "to
 alleviate", or "to account for". The rule follows the JMR 2020 paper and the
@@ -256,9 +279,12 @@ construct, and the claim follows in the second sentence.
 B2. **Write paragraphs of five to six sentences and about 120 words on
 average.** Most paragraphs have three to eight sentences. A paragraph may have
 ten sentences or more for a hypothesis argument or a numbered procedure.
-Paragraphs in an introduction have five to seven sentences and 110 to 230
-words, so give each step of rule G3 its own paragraph, and do not merge the
-summary of prior research, the gap, and the thesis into one paragraph. Results
+Paragraphs in an introduction have three to eight sentences and 90 to 230
+words. Follow the paragraphs of rule G3, and do not put the gap, the core
+argument, and the empirical preview into one paragraph. When the user's facts
+do not fill a paragraph, leave the paragraph short or add a placeholder
+sentence. Do not add sentences of your own about prior research to reach a
+count. Results
 paragraphs are the shortest, at about 90 to 110 words.
 
 B3. **Order the support as claim, evidence, example, consequence.** The
@@ -327,7 +353,12 @@ C1. **Follow his length profile.** Across a paper, the mean is 21 to 23 words
 and the median is 20 to 21. About one sentence in eight has 10 words or fewer,
 and about one in 20 has more than 40 words. The mean differs by section.
 Introductions and theory sections have a mean of 22 to 28 words, because the
-sentences carry citation strings. Results sections have a mean of 18 to 22
+sentences carry citation strings. In an introduction of 500 words or more, at
+least one sentence in 15 has more than 40 words. Reach the length with a
+citation string in the middle of the sentence, with a series of three items
+that each carry a citation, or with a ", which" clause that holds a number. Do
+not reach it with a clause that adds no fact. Results sections have a mean of
+18 to 22
 words, because verdicts and pointers are short. Method sections and
 discussions have a mean of 21 to 24 words. Two to four sentences in 100
 run past 45 words, and most of them are argument sentences with a "because"
@@ -337,7 +368,9 @@ means of 23 to 27 words. Do not use them as the target.
 C2. **Use a sentence of 10 words or fewer only for a claim that opens a
 paragraph, a verdict on a hypothesis, a lead-in, a pointer, or a flat
 definition.** Do not write three short sentences in a row. In an introduction,
-write one short sentence in each paragraph that states a gap or a count.
+the sentence that states the gap and each sentence that announces a count have
+12 words or fewer, not counting a citation. The other paragraphs of an
+introduction need no short sentence.
 Examples: "However, debt has its costs as well." (JM 2015) "Thus, H1c is fully
 supported." (JMR 2020)
 
@@ -441,10 +474,17 @@ start a sentence with "And", "But", or "So" in a manuscript.**
 D1. **Use one term for each construct, and repeat it.** Choose the label once,
 define it, and use the same label every time. When you declare an abbreviation
 or a short label, use that exact form in every later mention. A construct may
-have a level form and a change form, e.g., "complaint volume" and "an
-unexpected increase in complaint volume". Define both, and do not write a
-third form. A variable name for a model term may appear only in equations, in
-table labels, and in the name of an interaction, after you define it. When the
+have a level form, a change form, and the name of its variable in the model,
+e.g., "complaint volume", "an unexpected increase in complaint volume", and
+"unexpected complaint volume". Define each form that you use, and do not write
+any other form. Use the change form in research questions, hypotheses, and
+verdicts. Use the name of the variable for a magnitude and for a coefficient,
+e.g., "a one-standard-deviation increase in unexpected complaint volume", and
+keep the user's wording of a magnitude. Name an interaction with the level
+forms, e.g., "the interaction of complaint volume and advertising intensity".
+A capitalized variable label such as "Competition" may appear only in
+equations, in table labels, and in the sentence that explains its coding. When
+the
 user's notes use several labels for one outcome, use the label of the measure,
 say once which construct it measures, and tell the user which labels you
 merged. His published papers depart from the rule about one time in ten, e.g.,
@@ -517,10 +557,14 @@ of the words from "pivotal" to "navigate" is in his first-author papers, and
 "capitalize on" and not "leverage" as a verb, and never use "leverage" as a
 verb in a paper in which leverage is a construct.
 
-D13. **Define each technical term and each abbreviation at first use.** Give
-the full term and then the abbreviation in parentheses. Abbreviate a term only
-when it appears five times or more, or when it is the standard name of a data
-source or a method.
+D13. **Define each construct, each term that the readers of the journal may
+not know, and each abbreviation at first use.** Give the full term and then
+the abbreviation in parentheses. Abbreviate a term only when it appears five
+times or more, or when it is the standard name of a data source, a method, or
+a statistic, e.g., "CI" for a confidence interval. Do not define a standard
+term of econometrics or finance in the introduction or the results, e.g.,
+"fixed effects", "control function", "instrument", "endogeneity", and "basis
+point". The method section explains the logic of a correction.
 
 D14. **Keep Latin abbreviations inside parentheses.** Write "e.g.," and
 "i.e.," only in parentheses, with a comma after each, and write "for example"
@@ -551,7 +595,8 @@ em dashes, per 1,000 words. Do not use a dash for a pause or for emphasis.
 E3. **Use an en dash for a relation between two constructs and for a range in
 a manuscript for an American Marketing Association journal.** Examples are
 "the customer satisfaction–firm value link" and "1994–2010". Follow the target
-journal elsewhere.
+journal when the user names one, and use the format of the rule when the user
+names none.
 
 E4. **Use a colon before a list, numbered research questions, a formal
 hypothesis, or an equation.** The list may be a short list after a counted
@@ -579,8 +624,9 @@ use. Do not use bold in body text.
 
 E10. **Use title case for first-level and second-level headings, and run-in
 headings for the third level, in a manuscript for an American Marketing
-Association journal.** Some journals print sentence-case or numbered headings,
-so follow the target journal. Word every heading as a noun phrase.
+Association journal.** Some journals print sentence-case or numbered headings.
+Follow the target journal when the user names one, and use the format of the
+rule when the user names none. Word every heading as a noun phrase.
 
 ### F. Evidence and numbers
 
@@ -630,14 +676,17 @@ names the constructs.
 G2. **Abstract.** Write one paragraph of 150 to 180 words in the present
 tense, in one of the two sentence orders that the playbook gives.
 
-G3. **Introduction.** Write seven paragraphs in the following order: the
-standing of the topic, what prior research shows, the gap, the counted reasons
-or the counted aspects of the study, the research questions, the empirical
-preview with sample facts and findings, and the counted contributions. The
-introduction takes a tenth to an eighth of the body text. When the
-introduction follows the aspects of the study, each aspect has its own
-paragraph, and the paragraphs for the reasons and the research questions drop
-out.
+G3. **Introduction.** Write five to seven paragraphs in the following order.
+The first paragraph gives the standing of the topic, the definition of the
+focal construct, and what prior research shows. The second paragraph opens
+with the gap in one sentence and gives the counted reasons, and the reasons
+may run into a third paragraph. The next paragraph names the theory, states
+the core argument, and ends with the research questions. The next paragraph is
+the empirical preview with the sample facts and the findings. The last
+paragraph gives the counted contributions. The introduction takes a tenth to
+an eighth of the body text. When the introduction follows the aspects of the
+study, the gap closes the first paragraph, each aspect has its own paragraph,
+and the reasons and the research questions drop out.
 
 G4. **Theory.** Give each paragraph one claim, evidence from cited studies,
 and a concrete example, and mark the step to the paper's own argument with a
@@ -674,11 +723,16 @@ formatting, apply Part 2.
 
 H1. **Open on the manager's situation.** Start with a current trend and the
 risk that it carries. Do not open with the literature or with a research gap.
-When the user gives no trend, open on the decision that the manager faces, and
-add [current trend with source] to the list of placeholders.
+When the user gives no trend, write "[current trend with source]." as the
+first sentence of the text, follow it with the decision that the manager
+faces, and add the placeholder to the list.
 
-H2. **Give the main finding early, in one sentence.** The finding comes right
-after the opening and before the description of the study.
+H2. **Give the main finding early, in one sentence of 35 words or fewer.** The
+finding comes right after the opening and before the description of the study.
+The sentence holds the finding, one number, and its comparison. Put the
+definitions of new terms and the size of a typical increase in the next
+sentence, e.g., "A typical increase is [size of a typical increase], and the
+cost of bank loans is [plain definition of the measure]."
 
 H3. **Introduce the study in one sentence.** The sentence has a purpose
 phrase, "we", a plain verb, and who and how many took part. Do not name the
@@ -703,7 +757,11 @@ when the conversion is arithmetic, e.g., write "about 0.06 percentage points"
 for 6.2 basis points. Describe a one-standard-deviation change in words, e.g.,
 "a typical unexpected increase in complaints", and write [size of a typical
 increase] when the user does not give its size. When the comparison is
-missing, write [comparison].
+missing, write [comparison]. When the user gives only a coefficient for a
+finding, state the direction of the finding in words and write [number and
+comparison for the finding]. For a mediation result, name both links, e.g.,
+"an increase in complaints was followed by [change in the credit rating
+outlook], and the change went along with a higher cost of bank loans".
 Example: "From 1994 to 2017, the average partisan gap increased from 15 points
 to 36 points." (HBR, Partisanship)
 
@@ -713,8 +771,13 @@ supplies none, write one placeholder after the main finding, [company example:
 name, date, and action].
 
 H7. **Give each construct an everyday label, and define it by what was
-observed.** Keep the labels fixed once you define them. When the user gives no
-definition, write [plain definition of the term] at its first use.
+observed.** When the user's notes hold an everyday label, e.g., "the cost of
+bank loans", use it and not the label of the measure, e.g., "the loan spread".
+The instruction of rule D1 to use the label of the measure does not apply in
+the practitioner register. Name the measure once, inside the definition. Keep
+the labels fixed once you define them. When the user gives no definition,
+write [plain definition of the term] in the sentence after the first use, and
+put at most one placeholder inside one pair of parentheses.
 
 H8. **Name each source in the sentence.** The articles have no parenthetical
 citations and no footnotes. When the user names no source for a claim about
@@ -1152,8 +1215,8 @@ For a manuscript:
 
 5. The text has no contraction, no "I", no "you", and no exclamation mark.
 6. In a text of 500 words or more, the mean sentence length is inside the
-   range that rule C1 gives for the section, with the tolerance that the start of
-   Part 1 gives. In any text of 300 words or more, at least one sentence has 10
+   range that rule C1 gives for the section or within one word of the range.
+   In any text of 300 words or more, at least one sentence has 10
    words or fewer, and no three short sentences stand in a row.
 7. Each paragraph opens with its claim, its action, or a definition, and ends
    on a sentence that does a job.
@@ -1167,7 +1230,8 @@ For a manuscript:
     `references/reporting-and-phrases.md` or the style of the target journal.
 12. The text has at most one em dash, or one pair of em dashes, per 1,000
     words, and no colon joins two clauses.
-13. Each technical term and each abbreviation is defined at first use. Each
+13. Each construct, each term that the readers may not know, and each
+    abbreviation is defined at first use. Each
     claim about prior work has a citation or a placeholder.
 14. No sentence has a word that rules A4, D4, D8, D11, D12, or D14 ban, and no
     sentence has "since" for cause.

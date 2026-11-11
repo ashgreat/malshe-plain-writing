@@ -66,7 +66,10 @@ type themselves. The file calls it the JAMS manuscript.
    The word "excellent" is the earlier practice. Leave it out in new text, and
    say what the fit statistic shows.
 
-9. **Report a product of coefficients by showing the product.**
+9. **Report a product of coefficients by showing the product when the user
+   gives both coefficients.** When the user gives only the indirect effect,
+   report it in the format of rule 7, and do not write placeholders for the
+   two coefficients.
    Template: "(β = [product] = [first coefficient] × [second coefficient])".
 
 10. **Translate the headline effect into a magnitude.** Give the translation
